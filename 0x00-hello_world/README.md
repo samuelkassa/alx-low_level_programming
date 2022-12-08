@@ -1,1 +1,1 @@
-Excutable file from c file
+First code in c language
