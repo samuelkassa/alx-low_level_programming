@@ -3,10 +3,9 @@
 /**
  * main - print the string in the put function
  *
- * Dcription: using the main function
- * this program prints size of file being compiled
- *
- * Return : 0
+ * Description: using the main function
+ * this program prints size of compiled data
+ * Return: 0
  */
 int main(void)
 {
