@@ -1,1 +1,1 @@
-intel syntax for asembled c file
+Unix simplicfication
