@@ -1,1 +1,1 @@
-First code in c language
+Printing a text file using printf function
