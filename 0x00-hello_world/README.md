@@ -1,1 +1,1 @@
-Only compiiling with output having the same name as the input.
+Assembling c file with the output to be at the same file name as input
