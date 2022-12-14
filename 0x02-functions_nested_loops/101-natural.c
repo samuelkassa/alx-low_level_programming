@@ -4,7 +4,7 @@
  * main - Entry poing
  *Description: prints the sum of multiples of 3 and 5
  *
- * Return: Always 0
+ * Return: Always k0
  */
 int main(void)
 {
@@ -19,7 +19,7 @@ int main(void)
 			sum += num;
 		}
 	}
-	printf("%d\n, sum");
+	printf("%d\n", sum);
 
 	return (0);
 }
