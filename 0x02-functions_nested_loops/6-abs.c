@@ -17,7 +17,7 @@ int _abs(int n)
 	{
 		return (-n);
 	}
-	esle
+	else
 	{
 		return (n);
 	}
