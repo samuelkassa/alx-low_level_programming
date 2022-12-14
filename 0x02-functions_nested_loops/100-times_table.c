@@ -39,7 +39,7 @@ void print_times_table(int n)
 				}
 				else if (product < 1000 && product >= 100)
 				{
-					_putcahr(',');
+					_putchar(',');
 					_putchar(' ');
 					_putchar(product / 100 + '0');
 					_putchar((product / 10) % 10 + '0');
