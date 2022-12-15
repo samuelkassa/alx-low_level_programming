@@ -1,1 +1,1 @@
-print a number between 0 and 9
+printing numbers between 0 and 9 except 2 and 4
