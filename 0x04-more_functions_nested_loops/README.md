@@ -1,1 +1,1 @@
-printng numbers and strings
+Printing triangle
