@@ -34,5 +34,4 @@ void more_numbers(void)
 		n = '0';
 		limit = '9';
 	}
-	
 }
