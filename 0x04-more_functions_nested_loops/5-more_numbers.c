@@ -30,8 +30,9 @@ void more_numbers(void)
 			n = '0'
 		}
 		_putchar('\n');
-		iter = '0';
+		iter = 0;
 		n = '0';
 		limit = '9';
 	}
+	
 }
