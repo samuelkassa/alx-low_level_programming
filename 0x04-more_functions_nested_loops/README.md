@@ -1,1 +1,1 @@
-prints a line
+print diagonally
