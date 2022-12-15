@@ -1,1 +1,1 @@
-Checking if it is digit
+multiplies two integer
