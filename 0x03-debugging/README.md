@@ -1,1 +1,1 @@
-Debugging techinque
+prints 0
