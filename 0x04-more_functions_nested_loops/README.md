@@ -1,1 +1,1 @@
-printing square based on input value
+printng numbers and strings
