@@ -27,7 +27,7 @@ void more_numbers(void)
 			}
 			iter++;
 			limit = '4';
-			n = '0'
+			n = '0';
 		}
 		_putchar('\n');
 		iter = 0;
