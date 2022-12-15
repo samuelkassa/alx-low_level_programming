@@ -1,1 +1,1 @@
-finding for the largest factor of the given number
+printing a number
