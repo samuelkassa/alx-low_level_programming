@@ -12,7 +12,7 @@ void more_numbers(void)
 
 	iter = 0;
 	n = '0';
-	limit = 0;
+	limit = '9';
 
 	for (repeat = 0; repeat <= 10; repeat++)
 	{
