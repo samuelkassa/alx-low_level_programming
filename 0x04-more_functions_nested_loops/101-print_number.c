@@ -31,8 +31,8 @@ void print_number(int n)
 	int negative = 0;
 	int digit;
 	int divisor;
-	int begin;
-	int place;
+	int begin = 0;
+	int place = 10;
 
 	if (n < 0)
 	{
