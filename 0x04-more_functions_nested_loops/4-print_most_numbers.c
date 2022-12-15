@@ -8,11 +8,18 @@
 
 void print_most_numbers(void)
 {
-	char c = '0';
+	char c;
 
-	while (c != '2' && c != '4')
+	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(c);
+		if (c != '2'  && c != 4)
+		{
+			_putchar(c);
+		}
+		else
+		{
+			continue;
+		}
 	}
 	_putchar('\n');
 }
