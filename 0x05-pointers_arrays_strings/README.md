@@ -1,1 +1,1 @@
-Swapping the value of pointers
+counting the number lenght of a string 
