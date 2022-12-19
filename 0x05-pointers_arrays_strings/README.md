@@ -1,1 +1,1 @@
-printing strings in a reverse order
+Another task on string reverse
