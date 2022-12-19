@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -19,8 +18,8 @@ j++;
 j--;
 while (j >= 0)
 {
-printf("%c", s[j]);
+_putchar(s[j]);
 j--;
 }
-printf("\n");
+_putchar('\n');
 }
