@@ -13,7 +13,7 @@ int i;
 
 for (i = 0; *(str + i) != '\0'; i++)
 {
-putchar(*(stri + i));
+putchar(*(str + i));
 }
 putchar('\n');
 }
