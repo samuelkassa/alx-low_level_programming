@@ -1,1 +1,1 @@
-counting the number lenght of a string 
+Printing the string
