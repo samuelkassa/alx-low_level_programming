@@ -18,8 +18,8 @@ _putchar(str[j]);
 }
 else
 {
+j++;
 continue;
 }
-j++;
 }
 }
