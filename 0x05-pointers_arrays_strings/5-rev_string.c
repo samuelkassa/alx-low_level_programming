@@ -19,7 +19,7 @@ j++;
 j--;
 while (s[j] >= 0)
 {
-printf("%s", s[j]);
+printf("%c", s[j]);
 j--;
 }
 printf("\n");
