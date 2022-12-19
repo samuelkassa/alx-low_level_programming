@@ -17,7 +17,7 @@ while (s[j] != '\0')
 j++;
 }
 j--;
-while (s[j] >= 0)
+while (j >= 0)
 {
 printf("%c", s[j]);
 j--;
