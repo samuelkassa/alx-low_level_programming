@@ -29,3 +29,4 @@ s[half] = first;
 s[masx - half] = last;
 half--;
 }
+}
