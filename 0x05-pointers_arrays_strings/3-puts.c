@@ -2,9 +2,9 @@
 
 /**
  * _puts - prints the charactres in the string
- *@str: string pointer
+ * @str: string pointer
  *
- *Return: void
+ * Return: void
  */
 
 void _puts(char *str)
