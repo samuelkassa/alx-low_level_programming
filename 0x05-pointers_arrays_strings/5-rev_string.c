@@ -26,7 +26,7 @@ while (half >= 0)
 first = s[max - half];
 last = s[half];
 s[half] = first;
-s[masx - half] = last;
+s[max - half] = last;
 half--;
 }
 }
