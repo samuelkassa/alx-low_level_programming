@@ -3,7 +3,7 @@
 /**
  * _strcpy - copying the string pointed to by src
  * @src: source pointer
- * Edest: destination pointer
+ * @dest: destination pointer
  *
  * Return: char with copy of string
  */
@@ -19,5 +19,4 @@ char *_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 
 	return (dest);
-	
 }
