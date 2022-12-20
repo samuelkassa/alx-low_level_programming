@@ -24,6 +24,7 @@ void print_array(int *a, int n)
 			printf("%d\n", a[j]);
 			j++;
 		}
+		n = j;
 	}
 
 	if (n >= 1)
