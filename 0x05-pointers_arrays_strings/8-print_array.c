@@ -21,7 +21,7 @@ void print_array(int *a, int n)
 	{
 		while (a[j] != '\0')
 		{
-			j++
+			j++;
 		}
 		printf("%d\n", a[j]);
 	}
