@@ -19,7 +19,7 @@ void print_array(int *a, int n)
 	if (n < 0)
 		n = 0;
 
-	if (n > 0)
+	if (n >= 0)
 	{
 		while (a[i] != '\0' && counter < n)
 		{
