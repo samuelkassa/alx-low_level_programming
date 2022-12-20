@@ -21,9 +21,9 @@ void print_array(int *a, int n)
 	{
 		while (a[j] != '\0')
 		{
+			printf("%d\n", a[j])
 			j++;
 		}
-		printf("%d\n", a[j]);
 	}
 
 	if (n >= 1)
