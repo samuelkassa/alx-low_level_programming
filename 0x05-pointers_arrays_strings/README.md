@@ -1,1 +1,1 @@
-printing array values
+printing array elements
