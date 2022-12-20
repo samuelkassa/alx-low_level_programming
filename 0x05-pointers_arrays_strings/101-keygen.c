@@ -12,7 +12,7 @@
 int main(void)
 {
 	int ascii = 2772, i = 0, j, random;
-	char password1[100];
+	char password[100];
 	time_t t;
 
 	srand((int) time(&t));
