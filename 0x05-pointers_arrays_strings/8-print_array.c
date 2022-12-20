@@ -16,8 +16,8 @@ void print_array(int *a, int n)
 
 	i = 0;
 	counter = 1;
-	if (n <= 0)
-		printf("%d\n", a[i]);
+	if (n < 0)
+		n = 0;
 
 	if (n > 0)
 	{
