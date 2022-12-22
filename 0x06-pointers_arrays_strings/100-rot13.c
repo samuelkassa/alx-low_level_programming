@@ -20,7 +20,7 @@ char *rot13(char *str)
 		'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f',
 		'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'};
 
-	while (str[outer])
+	while (str[outer] != '\0')
 	{
 		for (inner = 0; inner < 52; inner++)
 		{
