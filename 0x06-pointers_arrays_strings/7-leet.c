@@ -14,7 +14,7 @@ char *leet(char *str)
 	int outer = 0;
 	char reference[9] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	while (str[outer] = '\0')
+	while (str[outer] != '\0')
 	{
 		for (inner = 0; inner <= 7; inner++)
 		{
