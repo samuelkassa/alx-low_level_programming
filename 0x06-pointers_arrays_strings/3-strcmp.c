@@ -10,22 +10,15 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i, j, remainder;
+	int i = 0;
 
-	for (i = 0, j = 0; s1[i] != '\0' && s2[j] != '\0'; i++, j++)
+	while (s1[a] != '\0')
 	{
-		if (_putchar(s1[i]) == _putchar(s2[j]))
-		{
-			remainder = _putchar(s1[i]) - _putchar(s2[j]);
-		}
-		else if (_putchar(s1[i]) > _putchar(s2[j]))
-		{
-			remainder = _putchar(s1[i]) - _putchar(s2[j]);
-		}
-		else
-		{
-			remainder = -(_putchar(s1[i]) - _putchar(s2[j]));
-		}
-		return (remainder);
+		if (s1[a] < s2[a])
+			return (s1[a] - s2[a]);
+		if (s1[a] > s2[a])
+			return (s1[a] - s2[a]);
+		i++;
 	}
+	return (0);
 }
