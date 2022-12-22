@@ -17,17 +17,15 @@ int _strcmp(char *s1, char *s2)
 		if (_putchar(s1[i]) == _putchar(s2[j]))
 		{
 			remainder = _putchar(s1[i]) - _putchar(s2[j]);
-			return (remainder);
 		}
 		else if (_putchar(s1[i]) > _putchar(s2[j]))
 		{
 			remainder = _putchar(s1[i]) - _putchar(s2[j]);
-			return (remainder);
 		}
 		else
 		{
 			remainder = -(_putchar(s1[i]) - _putchar(s2[j]));
-			return (remainder);
 		}
+		return (remainder);
 	}
 }
