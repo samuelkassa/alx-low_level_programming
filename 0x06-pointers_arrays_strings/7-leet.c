@@ -18,7 +18,7 @@ char *leet(char *str)
 	{
 		for (inner = 0; inner <= 7; inner++)
 		{
-			if (str[outer] == reference[inner])
+			if (str[outer] == reference[inner] || str[outer] - 32 == reference[inner])
 			{
 				str[outer] = inner + '0';
 			}
