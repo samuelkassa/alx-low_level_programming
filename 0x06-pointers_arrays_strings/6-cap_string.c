@@ -24,7 +24,7 @@ char *cap_string(char *str)
 		str[str_index - 1] == '!' || str[str_index - 1] == '?' ||
 		str[str_index - 1] == '"' || str[str_index - 1] == '(' ||
 		str[str_index - 1] == ')' || str[str_index - 1] == '{' ||
-		str[str_index - 1] == '}')
+		str[str_index - 1] == '}' || str_index == 0)
 			str[str_index] -= 32;
 
 		str_index++;
