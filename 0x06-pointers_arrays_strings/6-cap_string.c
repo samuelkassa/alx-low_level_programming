@@ -18,7 +18,7 @@ char *cap_string(char *str)
 		{
 			str_index++;
 		}
-		if (str[str_index - 1] == ' ' str[str_index - 1] == '\t' ||
+		if (str[str_index - 1] == ' ' || str[str_index - 1] == '\t' ||
 		str[str_index - 1] == '\n' || str[str_index - 1] == ',' ||
 		str[str_index - 1] == ';' || str[str_index - 1] == '.' ||
 		str[str_index - 1] == '!' || str[str_index - 1] == '?' ||
