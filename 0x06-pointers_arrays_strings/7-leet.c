@@ -18,7 +18,7 @@ char *leet(char *src)
 	{
 		for (index2 = 0; index2 <= 7; index2++)
 		{
-			if (src[inde1] == leet[index2] || src[index1] - 32 == leet[index2])
+			if (src[index1] == leet[index2] || src[index1] - 32 == leet[index2])
 			{
 				src[index1] = index2 + '0';
 			}
