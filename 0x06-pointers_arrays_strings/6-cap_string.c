@@ -12,7 +12,7 @@ char *cap_string(char *str)
 	int str_index;
 
 	str_index = 0;
-	while (str[str_index != '\0'])
+	while (str[str_index] != '\0')
 	{
 		while (!(str[str_index] >= 'a' && str[str_index] <= 'z'))
 		{
