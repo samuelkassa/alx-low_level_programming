@@ -20,7 +20,7 @@ char *leet(char *str)
 		{
 			if (str[outer] == reference[inner] || str[outer] - 32 == reference[inner])
 			{
-				src[outer] = inner + '0';
+				str[outer] = inner + '0';
 			}
 		}
 		outer++;
