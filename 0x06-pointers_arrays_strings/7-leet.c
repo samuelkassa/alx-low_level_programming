@@ -14,7 +14,7 @@ char *leet(char *src)
 	int index1 = 0;
 	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	while (src[index1] != '\0')
+	while (src[index1])
 	{
 		for (index2 = 0; index2 <= 7; index2++)
 		{
