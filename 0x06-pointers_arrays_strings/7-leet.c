@@ -12,7 +12,7 @@ char *leet(char *str)
 	int inner, outer;
 
 	int outer = 0;
-	char reference[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	char reference[9] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
 	while (str[outer] = '\0')
 	{
