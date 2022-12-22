@@ -12,7 +12,7 @@ char *leet(char *src)
 	int index1, index2;
 
 	int index1 = 0;
-	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', '?', 'T'};
+	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
 	while (src[index1] != '\0')
 	{
