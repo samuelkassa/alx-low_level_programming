@@ -4,3 +4,4 @@
 3. Comparing two texts which is equivalent to strcmp
 4. reversing the content of an integer array
 5. changing lower case to upper case
+6. Changing letter to upper case based on special character precedence
