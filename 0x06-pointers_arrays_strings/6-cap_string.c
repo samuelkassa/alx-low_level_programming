@@ -29,4 +29,5 @@ char *cap_string(char *str)
 
 		str_index++;
 	}
+	return (str);
 }
