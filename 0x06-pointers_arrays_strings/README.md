@@ -9,3 +9,4 @@ Pointers, Arrays and Strings
 7. Encoding a string into 1337
 8. Arranging strings based on rot13 format
 9. Printing an integer
+10. Printing a[2] = 98 then a new line
