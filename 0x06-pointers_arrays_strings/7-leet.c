@@ -12,6 +12,8 @@ char *leet(char *str)
 	int inner, outer;
 
 	int outer = 0;
+	char character;
+
 	char reference[9] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
 	while (str[outer] != '\0')
@@ -20,8 +22,8 @@ char *leet(char *str)
 		{
 			if (str[outer] == reference[inner] || str[outer] - 32 == reference[inner])
 			{
-				str[outer] = inner + '0';
-				break;
+				character = inner + '0';
+				str[outer] = character;
 			}
 		}
 		outer++;
