@@ -11,3 +11,4 @@ Pointers, Arrays and Strings
 9. Printing an integer
 10. Printing a[2] = 98 then a new line
 11. Adding two numbers
+12: Printing a buffer
