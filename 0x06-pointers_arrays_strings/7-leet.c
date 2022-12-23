@@ -21,6 +21,7 @@ char *leet(char *str)
 			if (str[outer] == reference[inner] || str[outer] - 32 == reference[inner])
 			{
 				str[outer] = inner + '0';
+				break;
 			}
 		}
 		outer++;
