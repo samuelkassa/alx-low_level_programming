@@ -32,5 +32,12 @@ This task is about Variables, Loops and if function
 	The two digits must be different
 	01 and 10 are considered the same combination of the two digits 0 and 1
 	You can only use putchar five times maximum in your code
-11. 	
+11. A program that prints all possible different combinations of three digits.
+	Numbers must be separated by ,, followed by a space.
+	The three digits must be different.
+12. A program that prints all possible combinations of two two-digit numbers.
+	The numbers should range from 0 to 99.
+	The two numbers should be separated by a space.
+	All numbers should be printed with two digits. 1 should be printed as 01.
+	The combination of numbers must be separated by comma, followed by a space.
 Write a program that prints all possible combinations of two two-digit numbers
