@@ -25,4 +25,9 @@ Even more pointers, arrays and strings
 6. A function that prints the chessboard
 7. A function that prints the sum of the two diagonals of a square matrix
 	of integers.
-	You are allowed to use the standard library.
+	You are allowed to use the standard library
+8. A function that sets the value of a pointer to a char.
+9. Create a file that contains the password for the crackme2 excutable.
+	Your file should contain the exact password, no new line, no extra space
+
+
