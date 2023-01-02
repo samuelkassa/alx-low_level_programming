@@ -17,7 +17,7 @@ void print_diagsums(int *a, int size)
 		sum1 += *(a + row * size + col);
 		sum2 += *(a + row * size + (size - 1 - col));
 		col++;
-		row++
+		row++;
 	}
 
 	printf("%d, %d\n", sum1, sum2);
