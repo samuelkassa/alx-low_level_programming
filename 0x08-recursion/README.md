@@ -11,3 +11,10 @@ C - Recursion
 5. A function that returns the natural square root of a number.
 	If n does not have a natural square root, the function should return -1.
 6. A function that returns 1 if the input integer is a prime number, otherwise return 0.
+7. A function that returns 1 if a string is a palindrome and 0 if not.
+	An empty string is a palindrome.
+8. a function that compares two strings and returns 1 if the strings can be considered
+	identical, otherwise return 0.
+	s2 can contain the special character *.
+	The special char * can replace any string (including an empty string)
+
