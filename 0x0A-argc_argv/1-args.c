@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - prints the numbeer of arguments
  * @argc: The number of arguments
@@ -9,8 +9,9 @@
  */
 
 
-int main(int argc, char __attribute__((unused))__ *argv[]) 
+int main(int argc, char *argv[]) 
 {
+	(void) argv;
 	printf("%d\n", argc - 1);
 	return (0);
 }
