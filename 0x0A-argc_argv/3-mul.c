@@ -17,10 +17,12 @@ int main(int argc, char *argv[])
 	int value2 = 0;
 
 	if (argc == 3)
+	{
 		value1 = atoi(argv[1]);
 		value2 = atoi(argv[2]);
 		printf("%d\n", value1 * value2;
-	if (argc < 3)
+	}
+	else
 	{
 		printf("Error\n");
 		return (1);
