@@ -1,4 +1,4 @@
- #include "main.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		{
 
 			s = argv[i];
-			for (k = 0; k < strlen(s); k++)
+			for (k = 0; k < argc - 1; k++)
 			{
 				if (s(k) < 48 || s(k) > 57)
 				{
