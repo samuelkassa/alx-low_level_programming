@@ -37,6 +37,7 @@ int main(int argc, char *argv[])
 			s++;
 		}
 		printf("%d\n", sum);
+	}
 	else
 	{
 		printf("0\n");
