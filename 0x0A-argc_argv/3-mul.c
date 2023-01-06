@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	{
 		value1 = atoi(argv[1]);
 		value2 = atoi(argv[2]);
-		printf("%d\n", value1 * value2;
+		printf("%d\n", value1 * value2);
 	}
 	else
 	{
