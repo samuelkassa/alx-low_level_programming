@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 			{
 				if (s(k) < 48 || s(k) > 57)
 				{
-					printf("Error");
+					printf("Error\n");
 					return (1);
 				}
 			}
