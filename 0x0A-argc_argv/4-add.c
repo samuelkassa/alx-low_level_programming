@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		{
 
 			s = argv[i];
-			for (k = 0; k < argc - 1; k++)
+			for (k = 0; k < argc; k++)
 			{
 				if (s(k) < 48 || s(k) > 57)
 				{
