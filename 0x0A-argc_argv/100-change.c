@@ -74,4 +74,4 @@ int give_change(int birr)
 
 	sum = tf + ten + five + two + one;
 	return (sum);
-
+}
