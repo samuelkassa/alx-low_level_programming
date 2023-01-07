@@ -59,7 +59,7 @@ int give_change(int birr)
 		ten = birr / 10;
 		birr -= ten * 10;
 	}
-	if (birr < 10 && money >= 5)
+	if (birr < 10 && birr >= 5)
 	{
 		five = birr / 5;
 		birr -= five * 5;
