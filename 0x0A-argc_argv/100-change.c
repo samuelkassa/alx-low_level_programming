@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 
+int give_change(int birr);
 /**
  * main - Prints the minimum number of coins to make change.
  * for an amount of money.
