@@ -13,33 +13,43 @@
 
 int **alloc_grid(int width, int height)
 {
-	int **address;
-	int *two_di_array;
-	int h, w;
-	int dimension = 0;
-
-	address = &two_di_array;
+	int i, j, k, l;
+	int **twarray;
 
 	if (width < 1 || height < 1)
 		return (NULL);
 
-	two_di_array = malloc((sizeof(*two_di_array) * (width + height)) + 1);
+	twarray = malloc(sizeof(int *) * height);
 
-	if (two_di_array == NULL)
-		return (NULL);
-
-	h = 0;
-	while (h < height)
+	if ( twarray == NULL)
 	{
-		w = 0;
-		while (w < width)
-		{
-			two_di_array[dimension] = 0;
-			w++;
-			dimension++;
-		}
-		h++;
+		free(twarray);
+		return (NULL);
 	}
-	two_di_array[dimension] = '\0';
-	return (address);
+
+	for (i = 0; i < height; i++)
+	{
+		twarray[i] = malloc(sizeof(int)  * width);
+	
+		if (twarray[i] == NULL)
+		{
+			for (j = i; j >= 0; j--)
+			{
+				free(twarray[j]);
+			}
+
+			free(twarray);
+			return (NULL);
+		}
+	}
+
+	for (k = 0; k < height; k++)
+	{
+		for (l = 0; l < width; l++)
+		{
+			twarray[k][i] = 0;
+		}
+	}
+	
+	return (twarray);
 }
