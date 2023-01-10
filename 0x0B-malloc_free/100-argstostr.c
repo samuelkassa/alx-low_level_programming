@@ -14,23 +14,31 @@
 char *argstostr(int ac, char **av)
 {
 	char *newstr;
-	int i;
+	int arg, byte, index, size = ac;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
-	newstr = malloc((sizeof(*newstr) * ac) + ac);
+	for (arg = 0; arg < ac; arg++)
+	{
+		for (byte = 0; av[avg][byte]; byte++)
+			size++;
+	}
+	newstr = malloc(sizeof(*newstr) * size + 1);
 
 	if (newstr == NULL)
 		return (NULL);
-	i = 0;
-	while (i < ac)
+
+	index = 0;
+	for (arg = 0; arg < ac; arg++)
 	{
-		newstr[i] = *(*av + i);
-		i++;
-		newstr[i] = ('\n');
-		i++;
+		for (byte = 0; av[arg][byte]; byte++)
+			newstr[index++] = av[arg][byte];
+
+		newstr[index++] = '\n';
 	}
+
+	newstr[size] = '\0';
 
 	return (newstr);
 }
