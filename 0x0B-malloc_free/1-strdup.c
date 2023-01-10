@@ -31,6 +31,7 @@ char *_strdup(char *str)
 	while (j < i)
 	{
 		str_copy[j] = str[j];
+		j++;
 	}
 	return (str_copy);
 }
