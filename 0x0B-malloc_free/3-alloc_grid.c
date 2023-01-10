@@ -13,9 +13,12 @@
 
 int **alloc_grid(int width, int height)
 {
+	int *address;
 	int *two_di_array;
 	int h, w;
 	int dimension = 0;
+
+	address = &two_di_array;
 
 	if (width < 1 || height < 1)
 		return (NULL);
@@ -37,5 +40,5 @@ int **alloc_grid(int width, int height)
 		}
 		h++;
 	}
-	return (two_di_array);
+	return (address);
 }
