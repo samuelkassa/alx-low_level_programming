@@ -33,3 +33,4 @@ char *_strdup(char *str)
 		str_copy[j] = str[j];
 	}
 	return (str_copy);
+}
