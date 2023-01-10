@@ -23,7 +23,7 @@ int **alloc_grid(int width, int height)
 	if (width < 1 || height < 1)
 		return (NULL);
 
-	two_di_array = malloc(sizeof(*two_di_array) * (width + height));
+	two_di_array = malloc((sizeof(*two_di_array) * (width + height)) + 1);
 
 	if (two_di_array == NULL)
 		return (NULL);
@@ -40,5 +40,6 @@ int **alloc_grid(int width, int height)
 		}
 		h++;
 	}
+	two_di_array[dimension] = '\0';
 	return (address);
 }
