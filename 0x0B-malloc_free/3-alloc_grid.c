@@ -21,7 +21,7 @@ int **alloc_grid(int width, int height)
 
 	twarray = malloc(sizeof(int *) * height);
 
-	if ( twarray == NULL)
+	if (twarray == NULL)
 	{
 		free(twarray);
 		return (NULL);
@@ -29,8 +29,8 @@ int **alloc_grid(int width, int height)
 
 	for (i = 0; i < height; i++)
 	{
-		twarray[i] = malloc(sizeof(int)  * width);
-	
+		twarray[i] = malloc(sizeof(int) * width);
+
 		if (twarray[i] == NULL)
 		{
 			for (j = i; j >= 0; j--)
@@ -50,6 +50,6 @@ int **alloc_grid(int width, int height)
 			twarray[k][i] = 0;
 		}
 	}
-	
+
 	return (twarray);
 }
