@@ -31,14 +31,17 @@ char *str_concat(char *s1, char *s2)
 	{
 		j++;
 	}
+
 	length = i + j;
 	str = malloc((sizeof(*str) * length) + 1);
 
 	if (str == NULL)
 		return (NULL);
+
+	j = 0;
 	while (k < length)
 	{
-		if (k <= i)
+		if (k < i)
 		{
 			str[k] = s1[k];
 		}
