@@ -17,7 +17,7 @@ char *create_array(unsigned int size, char c)
 	char *arr;
 	unsigned int i;
 
-	arr = malloc(sizeof(*arr) * 99);
+	arr = malloc(sizeof(*arr) * size);
 	if (size != 0 && arr != NULL)
 	{
 		for (i = 0; i < size; i++)
