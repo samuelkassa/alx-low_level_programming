@@ -17,7 +17,6 @@ char *str_concat(char *s1, char *s2)
 	int i, j, k, length;
 
 	i = j = k = length = 0;
-
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
@@ -52,7 +51,6 @@ char *str_concat(char *s1, char *s2)
 		}
 		k++;
 	}
-
 	str[k] = '\0';
 	return (str);
 }
