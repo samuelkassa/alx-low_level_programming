@@ -13,7 +13,7 @@
 
 int **alloc_grid(int width, int height)
 {
-	int *address;
+	int **address;
 	int *two_di_array;
 	int h, w;
 	int dimension = 0;
