@@ -14,27 +14,42 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *str;
-	unsigned long int i, j;
-	unsigned long int size;
+	int i, j, k, length;
 
-	size = sizeof(s1) + sizeof(s2) + sizeof('\0');
-	str = malloc(sizeof(*str) * size);
-	if (str != NULL && size != 0)
+	i = j = k = length = 0;
+
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+
+	while (s1[i])
 	{
-		for (i = 0; i < sizeof(s1); i++)
-		{
-			*(str + i) = *(s1 + i);
-		}
-		for (j = 0; j < sizeof(s2); j++)
-		{
-			*(str + i + j) = *(s2 + j);
-		}
-		*(str + i + j) = '\0';
-		return (str);
+		i++;
 	}
+	while (s2[j])
+	{
+		j++;
+	}
+	length = i + j;
+	str = malloc((sizeof(*str) * length) + 1);
+
 	if (str == NULL)
 		return (NULL);
+	while (k < length)
+	{
+		if (k < i)
+		{
+			str[k] = s1[k];
+		}
+		if (k >= i)
+		{
+			str[k] = s2[j];
+			j++;
+		}
+		k++;
+	}
 
-	return ('\0');
-
+	str[k] = '\0';
+	return (str);
 }
