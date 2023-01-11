@@ -28,13 +28,14 @@ char **strtow(char *str)
 	if (strw == NULL)
 		return (NULL);
 
+	length = 0;
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		for (j = 0; str[j] != " "; j++)
 		{
-			strw[i][j] = str(length);
+			strw[i][j] = str[length++];
 		}
-		str[][] = '\0';
+		str[i][j] = '\0';
 	}
 	strw[length] = '\0';
 	return (strw);
