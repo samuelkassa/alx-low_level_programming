@@ -13,7 +13,7 @@ void *malloc_checked(unsigned int b)
 {
 	unsigned int *memo;
 
-	memo = mealloc(b);
+	memo = malloc(b);
 	if (memo == NULL)
 		return (98);
 
