@@ -12,5 +12,22 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
+	void *memo_size;
+	char *filler;
+	unsigned int index;
 
+	if (nmemb == 0 || size == 0)
+		return (NULL);
+
+	memo_size = malloc(size * nmemb);
+
+	if (memo_size == NULL)
+		return (NULL);
+
+	filler = memo_size;
+
+	for (index = 0; index < (size * nmemb); index++)
+		filler[index] = '\0';
+
+	return (memo_size);
 }
