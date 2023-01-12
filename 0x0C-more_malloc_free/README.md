@@ -15,6 +15,8 @@ From this project you have to know about:
 2. A function that allocates memory for an array, using malloc.
 	The _calloc function allocates memory for an array of nmemb elements of size
 	bytes each and returns a pointer to the allocated memory.
-3. a function that creates an array of integers.
+3. A function that creates an array of integers.
 	The array created should contain all the values from min (included) to max
 	(included), ordered from min to max.
+4. A function that reallocates a memory block using malloc and free.
+5.  a program that multiplies two positive numbers.
