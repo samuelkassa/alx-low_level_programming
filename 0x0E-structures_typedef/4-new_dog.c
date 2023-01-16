@@ -82,7 +82,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	madog->name = _strcopy(madog->name, name);
 	madog->age = age;
-	madog->owner = _strcoy(madog->owner, owner);
+	madog->owner = _strcopy(madog->owner, owner);
 
 	return (madog);
 
