@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 
-int _strlen(char *str);
+int _strlen(char *s);
 char *_strcoy(char *dest, char *src);
 dog_t *new_dog(char *name, float age, char *owner);
 
@@ -16,7 +16,7 @@ int _strlen(char *s)
 {
 	int i = 0;
 
-	while (*str++)
+	while (s[i])
 		i++;
 
 	return (i);
