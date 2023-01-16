@@ -1,6 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 
+int _strlen(char *s);
 char *_strcoy(char *dest, char *src);
 dog_t *new_dog(char *name, float age, char *owner);
 
@@ -15,8 +16,10 @@ int _strlen(char *s)
 {
 	int i = 0;
 
-	while (*s++)
+	for (; *s != '\0'; s++)
+	{
 		i++;
+	}
 
 	return (i);
 }
@@ -37,7 +40,7 @@ char *_strcopy(char *dest, char *src)
 	for (i = 0; src[i]; i++)
 		dest[i] = src[i];
 
-	dest[i] = '\0';
+	dest[i++] = '\0';
 
 	return (dest);
 }
