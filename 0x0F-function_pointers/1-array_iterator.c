@@ -3,9 +3,9 @@
 /**
  * array_iterator - a function that executes a function given as a parameter
  * on each element of an array.
- * @size is the size of the array.
+ * @size : is the size of the array.
  * @action : is a pionter to the function you need to use
- * @array: is the array.
+ * @array : is the array.
  * @size_t : is the type of the sie.
  *
  *Return: Nothing
