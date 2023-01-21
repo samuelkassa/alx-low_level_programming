@@ -10,13 +10,14 @@ void print_all(const char * const format, ...);
 
 /**
  * print_char - Prints a char
- * @arg: a list of arguments pointing to the 
+ * @arg: a list of arguments pointing to the
  * character to be printed.
  */
 
 void print_char(va_list arg)
 {
 	char character;
+
 	character = va_arg(arg, int);
 	printf("%c", character);
 }
@@ -51,7 +52,7 @@ void print_float(va_list arg)
 
 /**
  * print_string - Prints a string
- * @arg: A list of arguments pointing to 
+ * @arg: A list of arguments pointing to
  * the string to be printed.
  */
 
@@ -73,7 +74,7 @@ void print_string(va_list arg)
  * print_all - prints anything, followed by a new line.
  * @format: A sting of characters representing the argument types.
  * @...: A variable number of arguments to be printed.
- * * Description: Any argument not of type char, int, float or 
+ * Description: Any argument not of type char, int, float or
  * char * is ignored.
  * if a string argument is NULL, nill will be printed.
  */
@@ -102,7 +103,7 @@ void print_all(const char *const format, ...)
 
 		if (j < 4)
 		{
-			printf("%s", separator):
+			printf("%s", separator);
 			funcs[j].print(args);
 			separator = ", ";
 		}
