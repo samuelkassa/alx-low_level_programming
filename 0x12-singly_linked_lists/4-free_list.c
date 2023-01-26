@@ -1,7 +1,7 @@
-#include "main.h"
+#include "lists.h"
 
 /**
- * free_lst - A function that frees a list_t list
+ * free_list - A function that frees a list_t list
  * @head: The pointer to first node.
  *
  * Return: Nothing
@@ -13,7 +13,7 @@ void free_list(list_t *head)
 
 	while (head)
 	{
-		fre = head-next;
+		fr = head->next;
 		free(head->str);
 		free(head);
 		head = fr;
