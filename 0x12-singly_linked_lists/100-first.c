@@ -8,7 +8,8 @@
 void __attribute__((constructor)) priority(void);
 
 /**
- * priority - Prints a string before the main function is excuted.
+ * priority - Prints a string before
+ * the main function is excuted.
  */
 void priority(void)
 {
