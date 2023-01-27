@@ -1,4 +1,4 @@
-/**
+/*
  * File: 100-first.c
  * Author: Samuyel Kasahun
  */
