@@ -3,16 +3,16 @@
  * Author: Samuyel Kasahun
  */
 
-#include <stdio.h>
+ #include <stdio.h>
 
-void __attribute__((constructor)) priority(void);
+void __attribute__((constructor)) hare(void);
 
 /**
- * priority - Prints a string before
- * the main function is excuted.
+ * hare - Prints a string before the
+ *        main function is executed.
  */
-void priority(void)
+void hare(void)
 {
 	printf("You're beat! and yet, you must allow,\n"
-			"I bore my house upon my back!\n");
+	       "I bore my house upon my back!\n");
 }
