@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * print_listint - prints all the elements of alistint_t list
- * @h: pointer to struct
+ * print_listint - prints all the elements of a listint_t list
+ * @h: pointer to struct head
  *
  * Return: The number of all elements of a list
  */
@@ -14,6 +14,7 @@ size_t print_listint(const listint_t *h)
 	while(h)
 	{
 		count++;
+		printf("%d", h->n);
 		h = h->next;
 	}
 
