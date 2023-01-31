@@ -18,4 +18,8 @@ From this task I learned :
 7. Write a function that returns the nth node of a listint_t linked list.
 8. Write a function that returns the sum of all the data (n) of a listint_t linked list.
 9. Write a function that inserts a new node at a given position
-10. Write a function that deletes the nodes at index index of a listint_t linked list.
+10. Write a function that deletes the nodes at index index of a listint_t linked	list.
+11. A function that reverses a listint_t linked list.
+12. A function that prints a listint_t linked list.
+13. A function that frees a listint_t list
+14. A function that finds the loop in a linked list
