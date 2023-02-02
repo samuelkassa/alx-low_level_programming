@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * git_bit - finds the binary value of a number at a given index.
+ * get_bit - finds the binary value of a number at a given index.
  * @n: The given number.
  * @index: The index for checking the value.
  *
@@ -11,7 +11,7 @@
 
 int get_bit(unsigned long int n, unsigned int index)
 {
-	if (index >= (sizeof(unsigned long int ) * 8))
+	if (index >= (sizeof(unsigned long int) * 8))
 		return (-1);
 
 	if ((n & (1 << index)) == 0)
