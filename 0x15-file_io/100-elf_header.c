@@ -1,6 +1,6 @@
 /**
  * File: 100-elf_header.c
- * Auth: Samuyel Kassahun
+ * Auth: Samuyel Kasahun
  */
 
 #include <elf.h>
