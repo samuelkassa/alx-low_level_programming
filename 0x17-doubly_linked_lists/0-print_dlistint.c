@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * print_dlistint - This function prints the number of nodes of a doubly linked list
+ * print_dlistint - This function prints the number of nodes of a doubly linked
+ * list
  * @h: The head of doubly linked list
  *
  * Return: the number of nodes in the list
