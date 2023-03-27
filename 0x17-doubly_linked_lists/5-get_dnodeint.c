@@ -13,6 +13,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	dlistint_t *temp;
 	unsigned int tot_node = 0;
+	int i;
 
 	if (head == NULL)
 		return (NULL);
@@ -22,7 +23,10 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	}
 	tot_node++;
 	temp = head;
-	while (index < tot_node)
+	if (index > tot_node)
+		return (NULL);
+
+	for (i = 0; i < index, i++)
 	{
 		temp = temp->next;
 		continue;
