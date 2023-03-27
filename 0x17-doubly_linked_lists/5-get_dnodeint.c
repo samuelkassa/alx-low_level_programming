@@ -11,27 +11,11 @@
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	dlistint_t *temp;
-	unsigned int i, tot_node = 0;
-
-	if (head == NULL)
-		return (NULL);
-
-	while (head)
+	for (; index != 0; index--)
 	{
-		tot_node++;
+		if (head = NULL)
+			return NULL;
+		head = head-next;
 	}
-	tot_node++;
-
-	temp = head;
-	if (index > tot_node)
-		return (NULL);
-
-	for (i = 0; i < index; i++)
-	{
-		temp = temp->next;
-	}
-	temp = temp->next;
-	return (temp);
-
+	return (head);
 }
